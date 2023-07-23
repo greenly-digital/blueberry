@@ -5,14 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
-    <div id="home"></div>
-    <div id="service"></div>
-    <div id="about"></div>
-    <div id="gallery"></div>
-    <div id="review"></div>
+    <div id="home">
+        <div class="nav_bar">
+            <div class="_logo">
+                <h1>LOGO</h1>
+            </div>
+            <div class="__mobile_menu_icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="_links">
+                <i class="fa-solid fa-circle-xmark"></i>
+                <a href="#service">SERVICE</a>
+                <a href="#gallery">GALLERY</a>
+                <a href="#contact">CONTACT</a>
+                <button>BOOK NOW</button>
+            </div>
+        </div>
+        <div class="__banner">
+            <img src="assets/banner.jpg" alt="">
+            <div class="__banner_txt">
+                <h1>BLUEBERRY WATER ADVENTURE ACADEMY</h1>
+                <p>
+                    Welcome to BLUEBERRY WATER ADVENTURE ACADEMY, your premier destination for thrilling boating and unforgettable water adventures! Our agency is dedicated to providing exhilarating experiences on the water, ensuring that you make lasting memories and indulge in the beauty of aquatic landscapes.
+                </p>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </div>
+    <!--end of home-->
+    <div id="service">
+        <div class="line"></div>
+        <h1>OUR SERVICES</h1>
+        <h2>Boating Adventures Await</h2>
+
+        <div class="service_container">
+            <div class="box">
+                <div class="over">
+                    <img src="assets/service1.jpg" alt="">
+                </div>
+                <h3>KAYAKING TRAINING</h3>
+                <p>Academy for mastering your kayaking skills</p>
+            </div>
+            <!--end of box-->
+            <div class="box">
+                <div class="over">
+                    <img src="assets/service2.jpg" alt="">
+                </div>
+                <h3>SWIMMING TRAINING</h3>
+                <p>Academy for mastering your swimming skills</p>
+            </div>
+            <!--end of box-->
+            <div class="box">
+                <div class="over">
+                    <img src="assets/service3.webp" alt="">
+                </div>
+                <h3>WATER ADVENTURES</h3>
+                <p>Unlimited water adventures</p>
+            </div>
+            <!--end of box-->
+            <div class="box">
+                <div class="over">
+                    <img src="assets/service4.jpg" alt="">
+                </div>
+                <h3>BOATING SERVICES</h3>
+                <p>Enjoy your dream vacation with us</p>
+            </div>
+            <!--end of box-->
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="line"></div>
+        <h1>BLUEBERRY WATER ADVENTURE ACADEMY</h1>
+        <h2>Your water adventures start here</h2>
+        <div class="__about_container">
+            <div class="__about_card">
+                <h3>Safety First</h3>
+                <p>
+                    Safety is our utmost priority. We prioritize teaching essential safety protocols, including navigation rules, emergency procedures, and proper use of safety equipment.
+                </p>
+            </div>
+            <!--end of card-->
+            <div class="__about_card">
+                <h3>Expert Instructors</h3>
+                <p>
+                    Our academy boasts a team of highly skilled and experienced instructors who are passionate about boating and water adventures.
+                </p>
+            </div>
+            <!--end of card-->
+            <div class="__about_card">
+                <h3>Community and Networking</h3>
+                <p>
+                    Joining our academy means becoming part of a vibrant community of boating and water adventure enthusiasts.
+                </p>
+            </div>
+            <!--end of card-->
+        </div>
+        <button>Contact Us</button>
+    </div>
+    <div id="gallery">
+    </div>
+    <div id="review">
+        <div class="line"></div>
+        <h1>REVIEWS</h1>
+        <h2>Our customers is our asset</h2>
+        <div class="__review_container">
+            <div class="__review_card">
+                <img src="assets/review1.jpg" alt="">
+                <p>
+                    Enrolling in the Boating and Water Adventures Academy was one of the best decisions I've made. From the moment I stepped into the academy, I felt welcomed by the friendly and knowledgeable staff.
+                </p>
+                <h3>Sara</h3>
+            </div>
+            <!--end of card-->
+            <div class="__review_card">
+                <img src="assets/review1.jpg" alt="">
+                <p>
+                    Enrolling in the Boating and Water Adventures Academy was one of the best decisions I've made. From the moment I stepped into the academy, I felt welcomed by the friendly and knowledgeable staff.
+                </p>
+                <h3>Sara</h3>
+            </div>
+            <!--end of card-->
+            <div class="__review_card">
+                <img src="assets/review1.jpg" alt="">
+                <p>
+                    Enrolling in the Boating and Water Adventures Academy was one of the best decisions I've made. From the moment I stepped into the academy, I felt welcomed by the friendly and knowledgeable staff.
+                </p>
+                <h3>Sara</h3>
+            </div>
+            <!--end of card-->
+        </div>
+
+    </div>
     <div id="contact"></div>
 
 
