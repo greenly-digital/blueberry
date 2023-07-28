@@ -29,6 +29,13 @@ $(document).ready(function () {
         } else {
           $('.nav_bar').removeClass('displayNav');
         }
+
+
+      });
+
+      
+      $(".book_btn").click(()=>{
+        window.open("tel:919745126660");
       });
     
 });
